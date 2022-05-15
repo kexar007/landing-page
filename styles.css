@@ -61,14 +61,40 @@ button{background-color: rgb(54, 107, 168);border-radius: 5px;
     flex: 1;
     width: 0;
 }
-img{
+.barnpic{
     width: -moz-available;
     height: 250px;
 }
 
 .pics {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 150px 120px;
 }
+.pictitle{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 30px;
+}
+.cards{display: flex;
+        width: 100%;
+        justify-content: space-between;
+        }
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 12px 13px 19px -1px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    color: dimgrey;
+    font-size: small;
+    font-style: italic;
+    flex-wrap: wrap;
+    
+}
+.card > * { width: 200px; }
+
 a {
     text-decoration: none;
     color: white;
