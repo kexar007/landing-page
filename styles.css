@@ -49,7 +49,7 @@ body {
     color: #F9FAF8;
 }
 .para{font-size: 18px; color: #E5E7EB;flex: 1; }
-button{background-color: rgb(54, 107, 168);border-radius: 5px;
+button{background-color: #366ba8;border-radius: 5px;
     font-size: 18px; font-weight: 900;
     margin: 0;
     padding: 0;
@@ -81,21 +81,69 @@ button{background-color: rgb(54, 107, 168);border-radius: 5px;
 .cards{display: flex;
         width: 100%;
         justify-content: space-between;
+        flex-wrap: wrap;
+
         }
 .card{
     display: flex;
     flex-direction: column;
     box-shadow: 12px 13px 19px -1px rgba(0,0,0,0.75);
     border-radius: 5px;
-    color: dimgrey;
-    font-size: small;
+    color: rgb(29, 27, 27);
+    font-size: 14px;
     font-style: italic;
     flex-wrap: wrap;
+    align-items: center;
+
     
 }
-.card > * { width: 200px; }
+.card > * { width: 200px; 
+    padding: 10px;
+}
 
 a {
     text-decoration: none;
     color: white;
+}
+.quote{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 70px 150px 70px;
+    flex-wrap: wrap;
+}
+.q1{font-size: 36px;font-style: italic; font-weight: lighter; color: #1F2937;}
+.q2{text-align: end;width: 100%;font-size: 24px;font-weight: 900;color: #1F2937;}
+.footer{
+
+justify-content: center; color: #E5E7EB;padding: 70px 150px 70px;
+
+}
+.sign{
+    padding: 70px 150px 70px;
+    background-color: #F9FAF8;
+
+}
+.box{
+    background-color:#1679eb ;
+    display: flex;
+    color: #E5E7EB;
+    border-radius: 10px;
+    align-items: center;
+   
+    padding: 50px;
+    justify-content: space-evenly;
+}
+.boxtxt{
+    display: flex;
+    flex-direction: column;
+}
+.b1{
+    font-size: 24px;font-weight: 700;
+}
+.b2{font-size: 20px;}
+.box > .button {
+    border: 1px white solid;
+    background-color: #1679eb ;
 }
